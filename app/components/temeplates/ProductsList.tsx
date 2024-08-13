@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { getAllProducts } from "../utils";
-import ProductCard from "./ProductCard";
-import Pagination from "./Pagination";
+import { getAllProducts } from "../../utils";
+import ProductCard from "../molecules/ProductCard";
+import Pagination from "../molecules/Pagination";
 
 interface ProductListProps {
   currentPage: number;

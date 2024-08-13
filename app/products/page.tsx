@@ -1,7 +1,7 @@
-import Pagination from "../components/Pagination";
-import ProductList from "../components/ProductsList";
+import Pagination from "../components/molecules/Pagination";
+import ProductList from "../components/temeplates/ProductsList";
 import { Suspense } from "react";
-import ProductsSkeleton from "../components/ProductsSkeleton";
+import ProductsSkeleton from "../components/temeplates/ProductsSkeleton";
 
 const Products: React.FC = async ({
   searchParams,

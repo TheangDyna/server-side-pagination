@@ -1,6 +1,6 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import Pagination from "../components/Pagination";
+import Footer from "../components/temeplates/Footer";
+import Navbar from "../components/temeplates/Navbar";
+import Pagination from "../components/molecules/Pagination";
 
 const UIDoc: React.FC = () => {
   return (

@@ -18,7 +18,7 @@ const ProductDetail: React.FC<Params> = async ({ params }) => {
           <img
             src={product.thumbnail}
             alt={product.title}
-            className="w-full h-auto object-cover rounded-lg shadow-lg"
+            className="w-full h-auto object-cover rounded-lg"
           />
         </div>
         <div className="flex flex-col">

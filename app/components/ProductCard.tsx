@@ -13,7 +13,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ item }) => {
   return (
     <div className="card bg-base-200 w-96">
       <figure>
-        <img src={item.thumbnail} alt={item.title} />
+        <img src={item.thumbnail} alt={item.title} className="min-h-[300px]" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">

@@ -11,18 +11,13 @@ const Products: React.FC = async ({
     page?: number;
   };
 }) => {
-  const currentPage = searchParams?.page;
+  const currentPage = searchParams?.page || 1;
   const limit = 24;
 
   return (
-    <div className="flex flex-col gap-20">
-      <Suspense key={currentPage} fallback={<ProductsSkeleton />}>
-        <ProductList currentPage={currentPage} limit={limit} />
-      </Suspense>
-      <div className="flex justify-center">
-        <Pagination total={194} limit={limit} />
-      </div>
-    </div>
+    <Suspense key={currentPage} fallback={<ProductsSkeleton limit={limit} />}>
+      <ProductList currentPage={currentPage} limit={limit} />
+    </Suspense>
   );
 };
 export default Products;

@@ -41,10 +41,7 @@ export const getProductById = async ({
   productId: string;
 }): Promise<Product> => {
   const res = await fetch(
-    `${baseURL}/${productId}?select=title,tags,description,thumbnail`,
-    {
-      cache: "no-store",
-    }
+    `${baseURL}/${productId}?select=title,tags,description,thumbnail`
   );
 
   if (!res.ok) {

@@ -1,4 +1,3 @@
-import Pagination from "../components/molecules/Pagination";
 import ProductList from "../components/temeplates/ProductsList";
 import { Suspense } from "react";
 import ProductsSkeleton from "../components/temeplates/ProductsSkeleton";

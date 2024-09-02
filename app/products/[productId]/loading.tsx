@@ -1,4 +1,4 @@
-import ProductSkeleton from "@/app/components/ProductSkeleton";
+import ProductSkeleton from "@/app/components/temeplates/ProductSkeleton";
 
 const Loading: React.FC = () => {
   return <ProductSkeleton />;

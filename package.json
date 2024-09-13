@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-personalize-runtime": "^3.645.0",
+    "@aws-sdk/credential-providers": "^3.645.0",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
